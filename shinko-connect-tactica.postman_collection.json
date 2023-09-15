@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "634c8e6b-b71b-4d48-b4da-da7780f815a0",
+		"name": "shinko-connect-tactica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17743533"
+	},
+	"item": [
+		{
+			"name": "pingPong",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://[::1]:3000/",
+					"protocol": "http",
+					"host": [
+						"[::1]"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get fiscales",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/shinko-connect-tactica/api/fiscales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"shinko-connect-tactica",
+						"api",
+						"fiscales"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "id",
+							"value": "82%2382o)^!!%23o",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get contactos",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/shinko-connect-tactica/api/contactos?limit=50&page=1&start_date=2010-04-09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"shinko-connect-tactica",
+						"api",
+						"contactos"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "50"
+						},
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "id",
+							"value": "81%26,4nr×!!%23l",
+							"disabled": true
+						},
+						{
+							"key": "start_date",
+							"value": "2010-04-09"
+						},
+						{
+							"key": "end_date",
+							"value": "2018-04-09",
+							"disabled": true
+						},
+						{
+							"key": "idEmpresa",
+							"value": "81&,4;u¯!!#0",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cuentas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cuentas"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "82)$1]42!!a.",
+							"disabled": true
+						},
+						{
+							"key": "limit",
+							"value": "50",
+							"disabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get empresas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "123",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/shinko-connect-tactica/api/empresas?page=1&limit=50&start_date=2010-04-09",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"shinko-connect-tactica",
+						"api",
+						"empresas"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "limit",
+							"value": "50"
+						},
+						{
+							"key": "id",
+							"value": "81%26,4;u®!!%23£",
+							"disabled": true
+						},
+						{
+							"key": "start_date",
+							"value": "2010-04-09"
+						},
+						{
+							"key": "end_date",
+							"value": "2018-04-09",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
